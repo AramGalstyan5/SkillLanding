@@ -1,0 +1,96 @@
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(to right, rgb(241, 241, 241), rgb(116, 1, 131));
+    /*position: fixed;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*right: 0;*/
+  }
+    
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position:relative;
+    }
+   
+        .menu {
+            margin-top: 25px;
+            list-style-type: none;
+            display: inline;
+            padding-right: 10px;
+            
+            font-size: 16px;
+            color: black;
+                padding: 0 6px;
+                justify-content: center;
+                margin-right: 350px;
+        }
+        ul li{
+            text-decoration: none;
+            display: inline;
+            list-style-type: none;
+  float: left;
+  margin: 0 15px;
+  font-size: 16px;
+  padding-right: 10px;
+  margin-right: 100px;
+            color: black;
+          }
+          a{
+            text-decoration: none;
+            display: inline;
+            list-style-type: none;
+  float: left;
+  margin: 0 10px;
+  font-size: 26px;
+            color: black;
+            text-decoration: none;
+            border-radius: 3px solid ;
+            text-shadow: 5px 5px 5px rgb(255, 255, 255), 0 0 1em rgb(134, 4, 134), 0 0 0.2em rgb(226, 204, 0);
+          }
+
+        .loginbutton{
+            width: 120px;
+            height: 25px;
+            outline: 0;
+  cursor: pointer;
+  border: none;
+  border-bottom: 5px solid #c9c500;
+  background: linear-gradient( 0deg, #9c9200, #d6c800);
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  
+  border-radius: 10px 10px 10px 10px / 100% 100%;
+  box-shadow: 0px 10px 15px 0px rgba(235, 220, 89, 0.75);
+  text-shadow: 1px 1px 2px rgb(189, 129, 0), 0 0 1em rgb(190, 162, 2);  
+            margin-right: 10px;
+        }
+        .singbutton{
+            width: 120px;
+            height: 25px;
+            outline: 0;
+  cursor: pointer;
+  border: none;
+  border-bottom: 5px solid #c9c500;
+  background: linear-gradient( 0deg, #9c9200, #d6c800);
+  color: #fff;
+  font-size: 16px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 10px 10px 10px 10px / 100% 100%;
+  box-shadow: 0px 10px 15px 0px rgba(235, 220, 89, 0.75);
+  text-shadow: 1px 1px 2px rgb(189, 129, 0), 0 0 1em rgb(190, 162, 2);  
+        }
+        button:hover{
+   
+            box-shadow: 0px 10px 15px 0px rgba(224, 4, 4, 0.75);
+            text-shadow: 1px 1px 2px rgb(247, 93, 4), 0 0 1em rgb(243, 2, 2);  
+                
+          }

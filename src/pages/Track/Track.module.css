@@ -1,0 +1,13 @@
+body{
+    font-style: white;
+}
+h1{
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+.image-container {
+    display: flex;
+  }
+
+  

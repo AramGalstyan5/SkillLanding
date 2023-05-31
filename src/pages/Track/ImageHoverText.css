@@ -1,0 +1,34 @@
+.image-hover-text-container {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 600px;
+    margin: 15px;
+  }
+  
+  .image-hover-text-img {
+    display: block;
+    width: 400px;
+    height: 300px;
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 10px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    
+    
+
+  }
+  
+  .image-hover-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 50;
+    width: 50%;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 8px 16px;
+  }
